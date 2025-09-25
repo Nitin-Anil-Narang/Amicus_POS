@@ -8,6 +8,8 @@
 Franchise-ready, multi-store, cloud-first Point of Sale — built with care in my spare time for a friend. ❤️
 </p>
 
+<p><em>Open source POS system designed for small franchises. Modular, API-first, offline-tolerant terminals with seamless sync.</em></p>
+
 <p>
   <img alt="Open Source Love" src="https://img.shields.io/badge/Open%20Source-love-ff69b4?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
   <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge&logo=github" />
