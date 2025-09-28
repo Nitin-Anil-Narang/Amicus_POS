@@ -13,7 +13,7 @@ Franchise-ready, multi-store, cloud-first Point of Sale — built with care in m
 <p>
   <img alt="Open Source Love" src="https://img.shields.io/badge/Open%20Source-love-ff69b4?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
   <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge&logo=github" />
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge&logo=semver" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.1-blue?style=for-the-badge&logo=semver" />
   <img alt="Status" src="https://img.shields.io/badge/status-early%20work--in--progress-orange?style=for-the-badge" />
 </p>
 
@@ -141,8 +141,8 @@ This project offers multiple licensing options. Choose the one that best fits yo
 ## Maintainer & Contact
 
 - Author: NN
-- Version: 1.0.0
-- Date (UTC): 2025-09-25 14:25:06
+- Version: 1.0.1
+- Date (UTC): 2025-09-28 09:47:31
 
 ### GitHub
 
