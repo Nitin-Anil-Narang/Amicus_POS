@@ -53,6 +53,29 @@ Amicus POS is an open, community-friendly POS aiming to support real storefront 
 
 Note: A deeper architecture and roadmap document exists separately and is not included here.
 
+### Offline-Tolerant Terminals with Seamless Sync
+
+One of Amicus POS's core design principles is ensuring that store operations can continue smoothly even when internet connectivity is unreliable or temporarily unavailable. Here's how this works:
+
+**Offline-First Architecture**
+- Terminal devices store essential data locally (product catalog, pricing, recent transactions)
+- All critical POS operations (scanning, checkout, receipt printing) work without internet
+- Local database maintains transaction history and inventory changes
+
+**Intelligent Sync Strategy**
+- **Background Sync**: When connected, terminals automatically sync with the cloud in the background
+- **Conflict Resolution**: Smart algorithms handle conflicts when multiple terminals modify the same data
+- **Incremental Updates**: Only changed data is synchronized, reducing bandwidth and sync time
+- **Queue Management**: Failed syncs are queued and retried automatically when connectivity returns
+
+**Business Continuity Benefits**
+- **Zero Downtime**: Stores can operate normally during internet outages
+- **Data Integrity**: No transaction loss, even during extended offline periods
+- **Multi-Store Coordination**: Changes sync across all store locations when connectivity is restored
+- **Real-Time When Possible**: Live updates when connected, seamless fallback when not
+
+This approach ensures that franchise operations remain uninterrupted regardless of network conditions, while maintaining data consistency across all locations.
+
 ---
 
 ## Contributing
